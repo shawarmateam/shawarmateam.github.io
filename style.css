@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+h1,h2 {
+    text-align: center;
+    color: #fff;
+    text-shadow: #9542f5 1px 0 20px;
+}
+
+p {
+    transition:
+        text-shadow .1s ease-in
+        color .1s ease-in;
+
+    max-width: 900px; /* Максимальная ширина параграфа */
+    margin: 0 auto; /* Центрирование */
+    text-align: center; /* Выравнивание текста по центру */
+    color: #fff;
+    font-size: 1.2em;
+}
+
+p:hover {
+    transition:
+        text-shadow .1s ease-in
+        color .1s ease-in;
+
+    text-shadow: #9542f5 1px 0 5px;
+    color: #f7f0ff;
+}
+
+button {
+    float: left;
+    font-family: "Times New Roman", "Liberation Serif";
+    background-color: #9542f5;
+    border: 2px solid #602b9c;
+    color: #EEEEEE;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+hr {
+    color: #3f3f3f;
+    margin: 20px;
+}
