@@ -1,8 +1,12 @@
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Минимальная высота 100% от высоты окна */
+    margin: 0;
 }
 
-h1,h2 {
+h1,h2,h3 {
     text-align: center;
     color: #fff;
     text-shadow: #9542f5 1px 0 20px;
@@ -53,4 +57,34 @@ button:hover {
 hr {
     color: #3f3f3f;
     margin: 20px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+}
+
+::selection {
+    color: #b988f2;
+    background-color: rgba(149, 66, 245, 0.0);
+}
+
+::moz-selection {
+    color: #b988f2;
+    background-color: rgba(149, 66, 245, 0.);
+}
+
+a,a:visited {
+    transition: color .1s ease-in-out;
+    color: #7535bd;
+}
+
+a:hover {
+    transition: color .1s ease-in-out;
+    color: #9542f5;
 }
